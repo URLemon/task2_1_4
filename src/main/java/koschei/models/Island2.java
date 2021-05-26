@@ -1,10 +1,12 @@
 package koschei.models;
 
-public class Island2 {
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+public class Island2 {
     private Wood3 wood;
 
-    public Island2(Wood3 wood) {
+    public Island2(@Autowired Wood3 wood) {
         this.wood = wood;
     }
 
